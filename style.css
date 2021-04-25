@@ -120,7 +120,7 @@ a.info-box{
     text-decoration : none;
     background      : rgba(255, 255, 255, 0.8);
     width           : 90%;
-    height          : 140px;
+    height          : 170px;
     display         : block;
     margin          : auto;
     margin-top      : 12px;
@@ -128,9 +128,10 @@ a.info-box{
 }
 
 .info-box img{
-height : 120px;
-margin : 10px;
-float  : left;
+    position: relative;
+    height : 120px;
+    margin : 10px;
+    float  : left;
 }
 
 .info-box h3{
@@ -150,9 +151,10 @@ color   : rgb(0, 0, 0);
 }
 
 .info-box img.right{
-float      : right;
-margin-top : 25px;
-height     :80px; 
+    position: relative;
+    float      : right;
+    margin-top : 25px;
+    height     :80px; 
 }
 
 /* CONTACT INFO */
