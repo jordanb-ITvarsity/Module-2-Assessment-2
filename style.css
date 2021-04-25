@@ -128,13 +128,14 @@ a.info-box{
 }
 
 .info-box img{
-    position:static;
+    position:fixed;
     height : 120px;
     margin : 10px;
     float  : left;
 }
 
 .info-box h3{
+position: fixed;
 padding : 0;
 margin-bottom :0;
 width : 90%;
@@ -144,6 +145,7 @@ text-align: center;
 
 
 .info-box p{
+position: fixed;
 margin  : 0;
 padding : 0;
 width   : 90%;
@@ -151,7 +153,7 @@ color   : rgb(0, 0, 0);
 }
 
 .info-box img.right{
-    position: static;
+    position: fixed;
     float      : right;
     margin-top : 25px;
     height     :80px; 
