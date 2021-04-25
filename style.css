@@ -134,6 +134,7 @@ a.info-box{
 }
 
 .info-box h3{
+    position:relative;
 padding : 0;
 margin-bottom :0;
 width : 90%;
@@ -143,6 +144,7 @@ text-align: center;
 
 
 .info-box p{
+    position:relative;
 margin  : 0;
 padding : 0;
 width   : 90%;
